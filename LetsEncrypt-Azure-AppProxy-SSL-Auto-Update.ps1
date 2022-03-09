@@ -304,7 +304,11 @@
 #endregion
 
 #region Now update the WebApps published through App Service Plans
-    $webApps = Get-AzWebApp
+
+<#
+###### Trying out something to make this a one-stop shop -- should work, but I don't have anything to test it with as I don't use AppService Plan hosted sites. ########
+
+$webApps = Get-AzWebApp
     $webAppCerts = Get-AzWebAppCertificate
     foreach($webApp in $webApps)
     {
@@ -326,6 +330,9 @@
             }
         }
     }
+
+#>
+
 #endregion
 
 Write-Output "`n`tWork's Done`n"

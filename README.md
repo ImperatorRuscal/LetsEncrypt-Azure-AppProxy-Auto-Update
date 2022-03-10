@@ -1,4 +1,4 @@
-# LetsEncrypt-Azure-AppProxy-Auto-Update
+# LetsEncrypt-Azure-AppProxy-SSL-Auto-Update
 Azure Automation Runbook that will go through all your AAD Enterprise App Proxy applications and update the SSL certificate with a new one from Lets Encrypt.
 
 ***These instructions are incomplete.  The runbook works (I'm using it in my production environment), but I don't have all the setup steps documented.  Feel free to use this runbook anyway -- I like to think that I made the parameters self-explanitory enough that you can run it without needing the full documentation.***
